@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "status": "NO_ADOPTED_BACKEND",
+  "productionEnabled": false,
+  "adoptedBackends": [],
+  "researchCandidates": [
+    {
+      "backendId": "unsloth-core",
+      "observedRelease": "v0.1.804-beta",
+      "observedAt": "2026-08-29",
+      "status": "UNREVIEWED_PHASE_0_M_U_CANDIDATE"
+    },
+    {
+      "backendId": "transformers-peft-reference",
+      "status": "REFERENCE_PATH_VERSION_UNRESOLVED"
+    }
+  ]
+}

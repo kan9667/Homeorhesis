@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "enabled": false,
+  "coordinatorOwnsPolicyAndLease": true,
+  "backendPerformsNumericalOptimizationOnly": true,
+  "workerIsolationRequired": true,
+  "baseModelReadOnly": true,
+  "sealedDatasetRequired": true,
+  "candidateOutputRootOnly": true,
+  "sharedGpuSchedulerRequired": true,
+  "networkDefault": "DENY_UNLESS_EXPLICIT",
+  "forbiddenReads": [
+    "arbitrary-dsh-sessions",
+    "hidden-evaluation-sets",
+    "provider-credentials",
+    "gate-credentials",
+    "release-credentials"
+  ],
+  "forbiddenWrites": [
+    "gca-policy",
+    "qualification",
+    "active-portfolio",
+    "gate-decision",
+    "active-release",
+    "active-model-store"
+  ],
+  "actualRuntimeRoundTripRequired": true,
+  "environmentPortabilityAssumed": false
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "enabled": false,
+  "mode": "NEUTRAL_ONLY",
+  "localOnly": true,
+  "toolGrantCalculatedBeforeSteering": true,
+  "modelSelectable": false,
+  "optimizerMayProposeOnly": true,
+  "requireExactRuntimeIdentity": true,
+  "requireSeparateExtractionAndQualificationSplits": true,
+  "requireEpisodePin": true,
+  "requireNeutralRollback": true,
+  "unqualifiedBehavior": "NEUTRAL_IF_QUALIFIED_ELSE_DENY_ROUTE",
+  "hardVetoMetrics": [
+    "malformed-tool-call-ceiling",
+    "unknown-tool-name-ceiling",
+    "tool-grant-expansion",
+    "out-of-range-alpha",
+    "direct-answer-critical-regression"
+  ],
+  "profiles": []
+}

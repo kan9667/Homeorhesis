@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "steeringProfileId": "research-only-example",
+  "baseRuntimeProfileId": "replace-with-exact-runtime-profile",
+  "modelArtifactDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "quantization": "replace",
+  "inferenceEngine": "replace",
+  "inferenceEngineVersion": "replace",
+  "tokenizerDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "chatTemplateDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "promptBundleDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "toolBundleDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "extractionDatasetDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "extractionSplitDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "extractionMethod": "difference-of-means",
+  "vectorArtifactDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "layerStart": 0,
+  "layerEnd": 0,
+  "evidenceRefs": [],
+  "contentHash": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "status": "ILLUSTRATIVE_NOT_QUALIFIED"
+}

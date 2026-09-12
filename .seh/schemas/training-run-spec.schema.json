@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seh://schemas/training-run-spec.schema.json",
+  "title": "SEH TrainingRunSpec setup schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "trainingRunId",
+    "backend",
+    "datasetManifestId",
+    "baseModelArtifactRef",
+    "tokenizerDigest",
+    "chatTemplateDigest",
+    "targetRole",
+    "targetTaskFamilies",
+    "method",
+    "trainingConfigRef",
+    "resourceBudgetRef",
+    "checkpointPolicyRef",
+    "outputCandidateRootRef",
+    "policyVersion",
+    "contentHash"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "trainingRunId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "backend": {
+      "type": "object"
+    },
+    "datasetManifestId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baseModelArtifactRef": {
+      "type": "object"
+    },
+    "tokenizerDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "chatTemplateDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "targetRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "targetTaskFamilies": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "method": {
+      "enum": [
+        "lora",
+        "qlora",
+        "dpo",
+        "other-reviewed"
+      ]
+    },
+    "trainingConfigRef": {
+      "type": "object"
+    },
+    "resourceBudgetRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "checkpointPolicyRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "outputCandidateRootRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "policyVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contentHash": {
+      "type": "string",
+      "minLength": 16
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

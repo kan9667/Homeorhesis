@@ -1,0 +1,3 @@
+# Documentation and upstream
+
+Architecture invariants and accepted ADRs precede implementation details. Update affected contracts, tests, README/JSDoc, generated catalogs, setup files, and evidence maps together. Keep current-state prose and distinguish invariant, V1 contract, proposed, illustrative, and deferred content. Pin upstream DSH, model, runtime, training backend, and dependencies exactly. Move the approved DSH pin only through an isolated `/seh-upstream-sync` review that compares instructions, architecture, packages, events, settings, generated catalogs, tests, lockfile, and compatibility evidence. Never adopt a newer commit incidentally.

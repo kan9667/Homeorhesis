@@ -1,0 +1,25 @@
+{
+  "seh-phase-context": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node scripts/antigravity-pre-invocation.mjs",
+        "timeout": 10
+      }
+    ]
+  },
+  "seh-tool-review": {
+    "PreToolUse": [
+      {
+        "matcher": "write_to_file|replace_file_content|multi_replace_file_content|run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/antigravity-pretool-guard.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

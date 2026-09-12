@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "packName": "SEH_Antigravity_Setup_v3.1_2026-08-29_FINAL",
+  "generatedAt": "2026-08-29",
+  "architectureVersion": "3.1",
+  "architectureSha256": "e1d48e75f5ba169f262b08071add8fd7ae757d8d14f5c66a11147c404510d04a",
+  "approvedDshCommit": "b150a551b8d465e31e418e1b2eaf5e79bbb7d28e",
+  "observedDshCandidate": "cd5ef8148158c3a752a658978873241fdf8e2bbc",
+  "liveFeaturesEnabled": false,
+  "fileCountExcludingManifest": 167,
+  "files": [
+    {
+      "path": ".agents/SEH_ANTIGRAVITY.md",
+      "bytes": 4926,
+      "sha256": "a9f34fe30d9ee4acf51227817e79b2849669ab2e1fbf02825928a1ead8ddf784"
+    },
+    {
+      "path": ".agents/agents/seh-architect/agent.md",
+      "bytes": 832,
+      "sha256": "b81f4a3c6ac9d8f150dd50a31b38f62fb2714e46a623228bc68c9022d6f4be4a"
+    },
+    {
+      "path": ".agents/agents/seh-portfolio-researcher/agent.md",
+      "bytes": 849,
+      "sha256": "04a88f47f329c557d2843c41213ff1e29e6e1f6507704577b11d2c0e1c636da0"
+    },
+    {
+      "path": ".agents/agents/seh-steering-reviewer/agent.md",
+      "bytes": 876,
+      "sha256": "91b198f2aa1a8671258b920fe66c6f8be4c3949ce3b7e9be725b09278c33cd25"
+    },
+    {
+      "path": ".agents/agents/seh-training-backend-reviewer/agent.md",
+      "bytes": 891,
+      "sha256": "4e66b035877e6c79181b23c62b133073277766fead43f911a5436cb0cc347750"
+    },
+    {
+      "path": ".agents/agents/seh-upstream-reviewer/agent.md",
+      "bytes": 841,
+      "sha256": "ed0daf488ce4fdc8623d1a55f269db760b5d427e8f06c0135f932d576d255c4b"
+    },
+    {
+      "path": ".agents/agents/seh-verifier/agent.md",
+      "bytes": 806,
+      "sha256": "8157f871c2872fb69b9d89ff7a56186cfdd3294ceb0b84fd71cffbf9074ffca9"
+    },
+    {
+      "path": ".agents/hooks.json",
+      "bytes": 538,
+      "sha256": "c3f3efe73d58653a6cfbe9cd2227489fff26a2f750bf5c2b765df37bf1dc9f83"
+    },
+    {
+      "path": ".agents/mcp_config.json",
+      "bytes": 23,
+      "sha256": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02"
+    },
+    {
+      "path": ".agents/rules/00-seh-core.md",
+      "bytes": 352,
+      "sha256": "e09fa78daf112302e314a96e9331dd6f80aa16a0b1a1c0e8786823f590f70594"
+    },
+    {
+      "path": ".agents/rules/10-authority-security.md",
+      "bytes": 591,
+      "sha256": "7347b9c612a803377eb2e6c159cc632c6747e3b6557486476bee7106b3fd5608"
+    },
+    {
+      "path": ".agents/rules/20-dsh-cordis-integration.md",
+      "bytes": 657,
+      "sha256": "7e8f0179a2533476d0e7a2585b3da33dae5007bb57f54b1edc5603f599c946e3"
+    },
+    {
+      "path": ".agents/rules/30-task-taxonomy-deterministic-lane.md",
+      "bytes": 566,
+      "sha256": "4da36e3db952d3aef0ad5df44ee17c42fa1713133de6f60257e1dcee4900eb82"
+    },
+    {
+      "path": ".agents/rules/40-model-portfolio-qualification.md",
+      "bytes": 618,
+      "sha256": "8ef8607742576da8e4013aa595f176ff1e119b157587f8eeb3de0e5fa56ab8b8"
+    },
+    {
+      "path": ".agents/rules/45-representation-steering.md",
+      "bytes": 786,
+      "sha256": "86f3aa3ec85fd4d5509bc70e11b8a889887b1cec7e3dc129da501e1b5aabf97d"
+    },
+    {
+      "path": ".agents/rules/50-residency-scheduling.md",
+      "bytes": 660,
+      "sha256": "d4a10997aec82e30e5d21f35e05316186cafc6e85729ebbdece21a57d27030cc"
+    },
+    {
+      "path": ".agents/rules/55-supervised-training-backend.md",
+      "bytes": 741,
+      "sha256": "82c932d997e2208e14b9ec01f5bb8251811c8b5e16bfa736689b2d8c3459a5cf"
+    },
+    {
+      "path": ".agents/rules/60-phase-change-discipline.md",
+      "bytes": 671,
+      "sha256": "425300c15edf7e96b7ab3b9ea470bbebff0129d13cfbd6bdd2da91a9b75709f4"
+    },
+    {
+      "path": ".agents/rules/70-verification-evidence.md",
+      "bytes": 665,
+      "sha256": "ab30cccfc9c310da13fadc1abcca6dae5a4dd094a9ca87108296217b74ce604b"
+    },
+    {
+      "path": ".agents/rules/80-remote-model-secrets.md",
+      "bytes": 643,
+      "sha256": "5a5c677b2ce55f50a61a670ccfdbbd9e4117788ab7d4ff50c34ea81409f030fd"
+    },
+    {
+      "path": ".agents/rules/90-documentation-upstream.md",
+      "bytes": 657,
+      "sha256": "7977a9a67f3162d4d599fa4d29a81caeb2833460a2d1c4aabcd1265b826533d2"
+    },
+    {
+      "path": ".agents/rules/95-training-evolution.md",
+      "bytes": 727,
+      "sha256": "ba852ae2e33e8740c21dbad326c087bd52611eda9696ddba9aff23c9f8b6b30c"
+    },
+    {
+      "path": ".agents/skills/seh-architecture/SKILL.md",
+      "bytes": 793,
+      "sha256": "99489fd0cc687713f080d9a7d9ec9e2089a80fe9ed48e448ae9032a781dc7aa3"
+    },
+    {
+      "path": ".agents/skills/seh-authority-review/SKILL.md",
+      "bytes": 630,
+      "sha256": "edefa487fc1ef5a6e13a33c2e180c9fb35ca6d28aaa527ec537c190fdecbdc4c"
+    },
+    {
+      "path": ".agents/skills/seh-dsh-integration/SKILL.md",
+      "bytes": 752,
+      "sha256": "5f5667925c48d6f173b5b4b1006752f97032f2bcb2c7e7469b9d39493414e945"
+    },
+    {
+      "path": ".agents/skills/seh-intervention-selection/SKILL.md",
+      "bytes": 695,
+      "sha256": "2bccb63631dd675fdf89cd22cb99815e1c55f1e1abf069ddd6794ac518d259c9"
+    },
+    {
+      "path": ".agents/skills/seh-model-intake/SKILL.md",
+      "bytes": 536,
+      "sha256": "d748c03fff1dce2123215db02da28f2f439cc2fff9d59e6e906d10a78a4518f1"
+    },
+    {
+      "path": ".agents/skills/seh-model-portfolio/SKILL.md",
+      "bytes": 707,
+      "sha256": "116adc0d11afa58504f983e270d0fdb12715b7ab3d87f5efde11a6d6cacf0dbb"
+    },
+    {
+      "path": ".agents/skills/seh-remote-governance/SKILL.md",
+      "bytes": 568,
+      "sha256": "333eb1920eea644cac4ce2fc26638cadcfc38a3c196a8466dd3ad2ca9835f44e"
+    },
+    {
+      "path": ".agents/skills/seh-representation-steering/SKILL.md",
+      "bytes": 1119,
+      "sha256": "168aa510ab7545fa4307161fcad305f79cf4bd43b72005516a3a7c81819ed5c0"
+    },
+    {
+      "path": ".agents/skills/seh-residency/SKILL.md",
+      "bytes": 557,
+      "sha256": "e02cda2ee3a496e0ef7c67abb11000e4dfba7d8e88b36cde79f3267959a51fc0"
+    },
+    {
+      "path": ".agents/skills/seh-task-taxonomy/SKILL.md",
+      "bytes": 559,
+      "sha256": "4f135b06b505ef1c8bb6b343905b55bc67cf61c6f793220f02790ae515959f13"
+    },
+    {
+      "path": ".agents/skills/seh-training-backend/SKILL.md",
+      "bytes": 942,
+      "sha256": "e65007a9b1adc42260723a06e6e62cad13389664a4d4dfeeaa33f33de8905b49"
+    },
+    {
+      "path": ".agents/skills/seh-training-governance/SKILL.md",
+      "bytes": 587,
+      "sha256": "06d61e6babf3a220b3d8476a9bda3a4ba56af6e70f56ced1ddebae68d4c5fe68"
+    },
+    {
+      "path": ".agents/skills/seh-unsloth-qualification/SKILL.md",
+      "bytes": 1014,
+      "sha256": "c87257ad718785b1992469f2660b4dde2c26979af57cf1578d78af099f54b691"
+    },
+    {
+      "path": ".agents/skills/seh-upstream-sync/SKILL.md",
+      "bytes": 524,
+      "sha256": "7c9e93529d8361f2dc6333829a5f3749a8eb415575deef87ec52a9e78f0693cc"
+    },
+    {
+      "path": ".agents/skills/seh-verification/SKILL.md",
+      "bytes": 526,
+      "sha256": "670c3690ecc23e485b1947996f7e7554c3b3a122696e35d69033ce018a6210e3"
+    },
+    {
+      "path": ".agents/workflows/seh-architecture-review.md",
+      "bytes": 733,
+      "sha256": "1ce87fc724d6494044751f0d77814d7205da5e2a33b8a86b6d80da88a827a7c8"
+    },
+    {
+      "path": ".agents/workflows/seh-first-pr.md",
+      "bytes": 1216,
+      "sha256": "a922eca3df43f76d8aa795d57fef7389e05a501ef6e4bad7b559486ad6385bd6"
+    },
+    {
+      "path": ".agents/workflows/seh-hook-self-test.md",
+      "bytes": 602,
+      "sha256": "d7d5e50e1d96999e78a95aade5108b1d16da599324a22d70563f032313c78046"
+    },
+    {
+      "path": ".agents/workflows/seh-implement-slice.md",
+      "bytes": 981,
+      "sha256": "3f69a77e234eab8d698109d007401020cde8a2678355c88c33d46e3e95d3d96a"
+    },
+    {
+      "path": ".agents/workflows/seh-intervention-review.md",
+      "bytes": 916,
+      "sha256": "c833808ed8eb191480259306017c7376e324d47213b026e2c30c8a44eb818fd8"
+    },
+    {
+      "path": ".agents/workflows/seh-model-intake.md",
+      "bytes": 760,
+      "sha256": "3f097bc472b0de7532c0168a1b903b0fd331e8515724a359e3eff9f3c9314576"
+    },
+    {
+      "path": ".agents/workflows/seh-phase-0.md",
+      "bytes": 946,
+      "sha256": "82848b81b60577417c2f692af0faedef3835c91cf6946eac12d4d845d27b3d32"
+    },
+    {
+      "path": ".agents/workflows/seh-phase-0m-steering.md",
+      "bytes": 1221,
+      "sha256": "13111c83828938b784fc3914e352ab9dbe82de4648289c37654c06687026841d"
+    },
+    {
+      "path": ".agents/workflows/seh-phase-0m-unsloth.md",
+      "bytes": 1486,
+      "sha256": "78a2a143e2b784f80c9cb1f5fafe572058020ffac8f302ae7c8c45b65331f771"
+    },
+    {
+      "path": ".agents/workflows/seh-phase-0m.md",
+      "bytes": 974,
+      "sha256": "2320a04fe2c6dd10c290296ce9a4b4adb8755df7465d243279b6997ee234ab9a"
+    },
+    {
+      "path": ".agents/workflows/seh-residency-review.md",
+      "bytes": 810,
+      "sha256": "0a13002e773766b76d76b20146ce232500aba274dc297800c01c2f3941cedbf0"
+    },
+    {
+      "path": ".agents/workflows/seh-runtime-profile-qualify.md",
+      "bytes": 844,
+      "sha256": "4aea8ce9678c5ddd5398493a5b7c0ae021c863e3ea4d21b60db8b69ae99b0f8a"
+    },
+    {
+      "path": ".agents/workflows/seh-session-start.md",
+      "bytes": 1084,
+      "sha256": "28fc092a0c1e4a49a9a30bbe8650b11781e96ba3981300b6e41ba871142ce001"
+    },
+    {
+      "path": ".agents/workflows/seh-steering-qualify.md",
+      "bytes": 1003,
+      "sha256": "b698b5fd7cdcb615fc0836154a7a334567047bd5990b812063fd04b13fea420c"
+    },
+    {
+      "path": ".agents/workflows/seh-task-taxonomy-review.md",
+      "bytes": 718,
+      "sha256": "1989812b929efad0e265cc67022323e075ba0fb3ea42020bb4e2fdf02c7d957b"
+    },
+    {
+      "path": ".agents/workflows/seh-training-backend-qualify.md",
+      "bytes": 1080,
+      "sha256": "c8e6d38e938d6cd4c35cd305a14d90f75536473bb71a5e556b3811dc7c7bde01"
+    },
+    {
+      "path": ".agents/workflows/seh-upstream-sync.md",
+      "bytes": 872,
+      "sha256": "b336a80bd4ce6319ea61a723a4037e25d0a00492066ddd1423870e181d9f351e"
+    },
+    {
+      "path": ".agents/workflows/seh-verify.md",
+      "bytes": 996,
+      "sha256": "99314c03ca7d534d14984fa2762be404d2a227be3a0b67cc016632886cfcb879"
+    },
+    {
+      "path": ".env.seh.example",
+      "bytes": 1063,
+      "sha256": "7451ab33f4b467df74cf559328d9d7a0c707b8ef9df2797048bda3979bd548ec"
+    },
+    {
+      "path": ".seh/antigravity-customization.json",
+      "bytes": 833,
+      "sha256": "c32f2464560091bf2fcb99a905606b896dff12101c73db46a0fbfef3c0a5d796"
+    },
+    {
+      "path": ".seh/antigravity-permissions.recommended.json",
+      "bytes": 765,
+      "sha256": "138dc48ec8df6ebe18cdc10edebcf0fd54e1bd94835eed84afde5336948863ab"
+    },
+    {
+      "path": ".seh/capability-ownership.json",
+      "bytes": 1529,
+      "sha256": "4112cb50894d9d3b35740127ea391966542f100c6d23a009b16f06743f008548"
+    },
+    {
+      "path": ".seh/examples/runtime-profile.example.json",
+      "bytes": 1296,
+      "sha256": "22e42fd9e1120bd7f3839398cbe64e6a818dead8503e30072f63df0567078862"
+    },
+    {
+      "path": ".seh/examples/steering-profile.example.json",
+      "bytes": 1272,
+      "sha256": "3ca51629498d9b4f4fd695e6e44b5d75e1f2284b65e768a0ef01209db89a7cf9"
+    },
+    {
+      "path": ".seh/examples/training-backend.example.json",
+      "bytes": 466,
+      "sha256": "80082e4a2f3aa0372bbb0ee29fe1b0598db26233f3b8a22cab25ba1aed24df1a"
+    },
+    {
+      "path": ".seh/examples/training-run-spec.example.json",
+      "bytes": 1454,
+      "sha256": "2e19bef1f7ceb055c63bfd281a4fa9cf1599fe498f5519f9f9186472fef3f990"
+    },
+    {
+      "path": ".seh/feature-flags.json",
+      "bytes": 654,
+      "sha256": "c52104a87f82c33c706645c1f6826a4056a3428b6964d6f217864741dbb56eb7"
+    },
+    {
+      "path": ".seh/hardware-profile.example.json",
+      "bytes": 407,
+      "sha256": "a19b179dbd2e01886addd440747db60a480c875cd220bc68f2f8dd203249f69f"
+    },
+    {
+      "path": ".seh/intervention-policy.defaults.json",
+      "bytes": 564,
+      "sha256": "15230570347893cf0a28650ab783733e60a1f4604238905cadc9533c0110de19"
+    },
+    {
+      "path": ".seh/model-intake-policy.json",
+      "bytes": 636,
+      "sha256": "6d1cf6cfe94aa6bc7ed7607f331c30715740f53c03348f9b6ce4cb685344efb9"
+    },
+    {
+      "path": ".seh/model-role.defaults.json",
+      "bytes": 610,
+      "sha256": "dae6bee54196249d63fb1e966e53970c60b0aa3f4c262700efd2d82d67e00de4"
+    },
+    {
+      "path": ".seh/phase-state.json",
+      "bytes": 1073,
+      "sha256": "5c26aa5c0dc008d7a73a21a45d701119c25d7bd072d87930c2638af5e6027f77"
+    },
+    {
+      "path": ".seh/policy.defaults.json",
+      "bytes": 1346,
+      "sha256": "d2e201b473c3984c39c771d59b5e09ba4b14afb068a9c28edee7d0ec2cbce369"
+    },
+    {
+      "path": ".seh/portfolio-state.json",
+      "bytes": 490,
+      "sha256": "24776b8fc6e987fe15aaf4329fcbb16b7ace7ab895347bd6d9c98a579a7bbaf6"
+    },
+    {
+      "path": ".seh/protected-targets.json",
+      "bytes": 2312,
+      "sha256": "f63e0ddf4ec412a0666bd8d6d0f9a01861be86595a30a548ce7ef6fb3aef2750"
+    },
+    {
+      "path": ".seh/release-baseline.json",
+      "bytes": 486,
+      "sha256": "533e550942bdf912c0b7eb30621bf0005fbbf6961a7ce9513654740b4f16b7ee"
+    },
+    {
+      "path": ".seh/remote-policy.defaults.json",
+      "bytes": 472,
+      "sha256": "0dc58036b885d9fd64ef34cff59dc63754bf724dfc04090e341f2ea88cb6f897"
+    },
+    {
+      "path": ".seh/research-observations.json",
+      "bytes": 905,
+      "sha256": "e10024f2293584eecda99597a0a3a4c6b864d9660122fbec080d48fc23c745ef"
+    },
+    {
+      "path": ".seh/runtime-policy.defaults.json",
+      "bytes": 677,
+      "sha256": "51bfc90ae44c034e7cfd386039c8b27bb9dc3dff57128d784237d5b00b23f1e4"
+    },
+    {
+      "path": ".seh/schemas/runtime-profile.schema.json",
+      "bytes": 2774,
+      "sha256": "3ff3e6a5063c2b53b4723f1daf7f4d9d9081bd9a081069be9519c65c6feaf8d9"
+    },
+    {
+      "path": ".seh/schemas/steering-profile.schema.json",
+      "bytes": 2406,
+      "sha256": "5934c71a72e52eac6969b6a803a68ae2eabaa29a2d568047f5328a0b1dcdfe60"
+    },
+    {
+      "path": ".seh/schemas/training-backend.schema.json",
+      "bytes": 1127,
+      "sha256": "b1480f17643da786970f8acefe0a70050b74673f77fd63f122267fcba21aa9f2"
+    },
+    {
+      "path": ".seh/schemas/training-run-spec.schema.json",
+      "bytes": 1932,
+      "sha256": "ffbca3c472b0083d3620944a0a5814ca9c99ebf3249196547253e47b4143441b"
+    },
+    {
+      "path": ".seh/source-of-truth.json",
+      "bytes": 410,
+      "sha256": "411a61f27957ac7eb260df082c4f97b6e95097b59e6b23e47b56fe173bc60a93"
+    },
+    {
+      "path": ".seh/steering-policy.defaults.json",
+      "bytes": 634,
+      "sha256": "f9ef4524277fbe4b0c22058be3d56fda31f6ac4671c5866b1dcad5a1f2d57395"
+    },
+    {
+      "path": ".seh/steering-registry.json",
+      "bytes": 138,
+      "sha256": "9f79894215e2c10e3a11b127ff4b31f0ef54dbbe2a17f0cb1ab37d00d11b0dbd"
+    },
+    {
+      "path": ".seh/task-family.defaults.json",
+      "bytes": 503,
+      "sha256": "ee458d75d559e9cd6ffcddea4113c8a73ccab3a3e9e6dad5b101f91722e8842a"
+    },
+    {
+      "path": ".seh/toolchain.json",
+      "bytes": 471,
+      "sha256": "81a7210dc33ed0900d631386bde6f023420ba2b2e1c9eabe0c8ae4000b318f7f"
+    },
+    {
+      "path": ".seh/training-backend-policy.defaults.json",
+      "bytes": 760,
+      "sha256": "dad0fa9b0430a98a547414768948d6408791577b37edca8c1183ffe01b2687a9"
+    },
+    {
+      "path": ".seh/training-backend-registry.json",
+      "bytes": 434,
+      "sha256": "ccf048813cd91203f869b18efaa4bfc3433c5eaf7f3ff6516304b667ac54746e"
+    },
+    {
+      "path": ".seh/upstream-pin.json",
+      "bytes": 683,
+      "sha256": "52f2af30a2750bcb71a75776d2d37ed7a27155f9050009223de2713fe091ac32"
+    },
+    {
+      "path": ".seh/verification-matrix.json",
+      "bytes": 992,
+      "sha256": "1ff305fc72fb1e491e19485d545bd61d56d972707a7be9eeac3a003d53848bd1"
+    },
+    {
+      "path": "FILE_INDEX.md",
+      "bytes": 6598,
+      "sha256": "6059200bf8db3454a770bb067a0e86ff4694c8e0a2fbd4900ebe3779a0969453"
+    },
+    {
+      "path": "GEMENI.md",
+      "bytes": 289,
+      "sha256": "bef49a141bfef254a8a5959f0ae9f9a81577b6acf813f61b80c697edf192ce7d"
+    },
+    {
+      "path": "GEMINI.md",
+      "bytes": 11328,
+      "sha256": "6d44a373aa6cf4aa866382d4c6bd861ed044984402e3b372d8896515bd55d2d4"
+    },
+    {
+      "path": "README_SETUP_PACK.md",
+      "bytes": 4807,
+      "sha256": "a4619cb839b4d96a7df282f32a916a9d533092e196a7d49dca428722c897fda0"
+    },
+    {
+      "path": "SEH.gitignore.snippet",
+      "bytes": 360,
+      "sha256": "0b983480a9a950ea3cd2f3d83adbd1835b0cb64dc8259c47d9f60fbbbb52d4e5"
+    },
+    {
+      "path": "SEH.package-scripts.snippet.json",
+      "bytes": 1410,
+      "sha256": "dca123e9b8175b6ab374d353004b78a041c439dba53e1a5b328cf3df8e992bd5"
+    },
+    {
+      "path": "SEH_ANTIGRAVITY_SETUP_v3.1_VALIDATION.md",
+      "bytes": 5211,
+      "sha256": "cb452d39f69953e7ae3e3fc8ca8142e52b151c6dd524694b750bd4a597edacc5"
+    },
+    {
+      "path": "SEH_ARCHITECTURE_v3.1.md",
+      "bytes": 246295,
+      "sha256": "e1d48e75f5ba169f262b08071add8fd7ae757d8d14f5c66a11147c404510d04a"
+    },
+    {
+      "path": "SEH_ARCHITECTURE_v3.1_CHANGELOG.md",
+      "bytes": 3897,
+      "sha256": "687f134693cc3a259a6c76cf610ab5f63421ad2b8bff6d878a33267690284343"
+    },
+    {
+      "path": "SEH_ARCHITECTURE_v3.1_VALIDATION.md",
+      "bytes": 1814,
+      "sha256": "da751c7afbf89414773d564e2e4ba8107130974ed4c1cc54e939033ab267b8d5"
+    },
+    {
+      "path": "architecture.md",
+      "bytes": 246295,
+      "sha256": "e1d48e75f5ba169f262b08071add8fd7ae757d8d14f5c66a11147c404510d04a"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-001.md",
+      "bytes": 1657,
+      "sha256": "45952c54ced9bdc0f440108aa6d739298c8427efc0b0db7f9c5ecdc3bff90719"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-002.md",
+      "bytes": 1641,
+      "sha256": "ee586409fe6de7d96aaaa4c0f04dcca0ce01eec0193028333af18eef34a81792"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-003.md",
+      "bytes": 1653,
+      "sha256": "797f7576ac53b87ed62b6d8e985a30686432abe73e5e85c72804fa10b38b3992"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-004.md",
+      "bytes": 1641,
+      "sha256": "94c658dc57339658c3de984dc7d57b9510937c736bae40e9b81d5824032e87d9"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-005.md",
+      "bytes": 1659,
+      "sha256": "abbf41164dcb2523884f1281c844e9ce72a1e8ae211c118ce4c8c1e24875206f"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-006.md",
+      "bytes": 1648,
+      "sha256": "f5f36b299bd1c7f1cf3f8dea94fc9ead28fb16acb268f12a826647643534df5d"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-007.md",
+      "bytes": 1642,
+      "sha256": "ff0bd8a98d9402b2124d1930ef7c3ccfe66adc83210c1e668aef1dcec183fcae"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-008.md",
+      "bytes": 1636,
+      "sha256": "9d103cd51bb97cde010de34d776819b0cbfc04f957d38cf821ac74cc752814d6"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-009.md",
+      "bytes": 1656,
+      "sha256": "c69a6b1d40b526b964e60e0cdc5ac46b871af4b53a91b726f1992d66925d7b28"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-010.md",
+      "bytes": 1643,
+      "sha256": "8a1f2736b83c0dcc09ee5371c7bced17ab9d4984e2af1ff28a87f7960f133331"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-011.md",
+      "bytes": 1644,
+      "sha256": "56418b46d9915d1b8c32aff35447231d7a263a273263a70996eb3f21401fd4f6"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-012.md",
+      "bytes": 1636,
+      "sha256": "f80f4b6a61eef6cdd0abc32dec0cb28ba171c882e3b0f47604a95b7522056c45"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-013.md",
+      "bytes": 1644,
+      "sha256": "fef0547d18f6f3f06ae0cb7689e2d8e723a489aa2186bbfedd2191449a60097d"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-014.md",
+      "bytes": 1645,
+      "sha256": "18a1aa95ad6099819a61408ec8163a6cf6e3c647c02ea41a2d51ba1924f14462"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-015.md",
+      "bytes": 1646,
+      "sha256": "f58aa7e71f50e924f01d702e82573981e17b39ee7649cff091fcee66c1b43fe8"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-016.md",
+      "bytes": 1654,
+      "sha256": "d805ccf42b27d3d662ddd12e9047a68895b780b243032c5cb2a1edd6596044ef"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-017.md",
+      "bytes": 1644,
+      "sha256": "67f65ad19b62103fe6226304bd07b006e6743cd08a3d0e7cd8cf08a1790a9690"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-018.md",
+      "bytes": 1650,
+      "sha256": "c43376a9a30385b1db7d08a100b635716d9a6fd3cf42c82477ddc3ebd5148873"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-019.md",
+      "bytes": 1642,
+      "sha256": "88bcac4c93b1d777989cb73690d3673ef79bc379eead7d6de5d12fbf09c3f1a6"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-020.md",
+      "bytes": 1647,
+      "sha256": "65bf0d7aa8f5f51c75250f145ceca7eac085c1aec14669177465bcf7344a48b6"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-021.md",
+      "bytes": 2127,
+      "sha256": "e1225c2947baf5d2acb4da7d9a81c0939c4701fa2051eae8dcd6074892d53ac7"
+    },
+    {
+      "path": "docs/adr/ADR-SEH-022.md",
+      "bytes": 2121,
+      "sha256": "0c4365bd2322690dcda9117d5c0a1d7ade09e77dd6d81aaf310568281e5091f5"
+    },
+    {
+      "path": "docs/adr/README.md",
+      "bytes": 637,
+      "sha256": "8de0adef9af751a11cec37ae413e079c9145a3107732159a1d5343175b37a7d6"
+    },
+    {
+      "path": "docs/antigravity/ANTIGRAVITY_SETUP.md",
+      "bytes": 2943,
+      "sha256": "75e29651eff65107496fcf9f25b7b9a4a75a03a41bc0bf90f87630b3d1dc4b45"
+    },
+    {
+      "path": "docs/antigravity/COMMANDS.md",
+      "bytes": 1989,
+      "sha256": "1b27af733b787ee89ac8635e6a9f63d9fd7129df10b448f5bbec28fbf32e1b56"
+    },
+    {
+      "path": "docs/antigravity/COPY_INSTRUCTIONS.md",
+      "bytes": 584,
+      "sha256": "c5db639f0f60d26d252423277d7d5430e270d7252e801949faafc1cb586ac8c5"
+    },
+    {
+      "path": "docs/antigravity/CURRENT_BASELINE.md",
+      "bytes": 1063,
+      "sha256": "b2d870dbc73aa1adfb1a965a13874e5f3c0aead1412fda2e1eded2dd82a7c05f"
+    },
+    {
+      "path": "docs/antigravity/CUSTOMIZATION_ACTIVATION.md",
+      "bytes": 1500,
+      "sha256": "13a87bf2bf57f28a79d6d09a71986f8c8ec8acbec9f2d86913d9122f44395e7e"
+    },
+    {
+      "path": "docs/antigravity/FIRST_PR_PLAN.md",
+      "bytes": 1691,
+      "sha256": "ae953776856933eff334de593467d883a9505ead408c21f7cb74f3a68a72010e"
+    },
+    {
+      "path": "docs/antigravity/HOOKS_AND_GUARDS.md",
+      "bytes": 1259,
+      "sha256": "a0b61d7cdfc0bea7979c3b66fb5f4219816a55bb49dadebf618918c9daa2ef17"
+    },
+    {
+      "path": "docs/antigravity/INTERVENTION_LADDER.md",
+      "bytes": 988,
+      "sha256": "849b8556a4658993571ac40f248f94703bee628540597658d36d6b09b1fdaf30"
+    },
+    {
+      "path": "docs/antigravity/MCP_POLICY.md",
+      "bytes": 639,
+      "sha256": "c4fbcbb7e0b10c461fc7c27c29b16eac54c2b269eff102f6ecc67f2b9489b411"
+    },
+    {
+      "path": "docs/antigravity/MODEL_PORTFOLIO_SETUP.md",
+      "bytes": 895,
+      "sha256": "4ea06b66921a1aba0119fe6ed8ac5c9f2679167bcb6cfcf9df4ab6b0a3996c53"
+    },
+    {
+      "path": "docs/antigravity/PERMISSIONS_POLICY.md",
+      "bytes": 1760,
+      "sha256": "af54ade1f4d024b35da6baff0b7edd9a7e62fd9e9057212f805f5e667337b719"
+    },
+    {
+      "path": "docs/antigravity/PHASE_0MS_CHECKLIST.md",
+      "bytes": 855,
+      "sha256": "a23cfdf0d10eecb2a41195fe7f06750820f54a2fa5a398f336dbb522cd2f6efe"
+    },
+    {
+      "path": "docs/antigravity/PHASE_0MU_CHECKLIST.md",
+      "bytes": 921,
+      "sha256": "f8ec9ce104efe9bddf2dd0520270b7a54012fecc8f2180ca46b20dfdf8de3bd1"
+    },
+    {
+      "path": "docs/antigravity/PHASE_0M_CHECKLIST.md",
+      "bytes": 882,
+      "sha256": "52c0eacd389153c705fd052261f6f0afbcf79c39020ef91dc7a18797bb8e6208"
+    },
+    {
+      "path": "docs/antigravity/PHASE_0_CHECKLIST.md",
+      "bytes": 1267,
+      "sha256": "d9e85a66969c7f5371035bdac695adc4ca3260c961f2eb61036a2a4c69428e84"
+    },
+    {
+      "path": "docs/antigravity/REPRESENTATION_STEERING_SETUP.md",
+      "bytes": 1759,
+      "sha256": "2026b3f09d46be05175b87a2330b5ad736472d7994d8f34d758dcbae7476c4d0"
+    },
+    {
+      "path": "docs/antigravity/RESEARCH_SOURCES.md",
+      "bytes": 2015,
+      "sha256": "8ec706ca5d4d8d1682b0551a2ad9061a6675aa8a3914a7771102078a5490e277"
+    },
+    {
+      "path": "docs/antigravity/RESEARCH_STATUS_2026-08-29.md",
+      "bytes": 1091,
+      "sha256": "238adf926e7651ab7feb0fd829c97ca04c4a648ddb9ec21c48b5a43b737954e7"
+    },
+    {
+      "path": "docs/antigravity/SUBAGENTS.md",
+      "bytes": 1035,
+      "sha256": "ed9b171e476b710ff15395e6427ed2a0acc031c672a85592451956d88e19b5ce"
+    },
+    {
+      "path": "docs/antigravity/TRAINING_BACKEND_SECURITY.md",
+      "bytes": 1007,
+      "sha256": "e426e573a5317e877f12f6a3b6779206fcfebbc28360d22ecd4ff3fa79820085"
+    },
+    {
+      "path": "docs/antigravity/UNSLOTH_BACKEND_SETUP.md",
+      "bytes": 1707,
+      "sha256": "cd6401760c8f438e22b20f9cde584476c445c54d93b8e694ec304fb44f81107b"
+    },
+    {
+      "path": "docs/antigravity/UPSTREAM_AGENTS_INTEGRATION.md",
+      "bytes": 567,
+      "sha256": "09b72c7e7eeb83bf8d66f449204ecddb78d8f2a8c97b104448bf69cacd3492ef"
+    },
+    {
+      "path": "docs/antigravity/UPSTREAM_DRIFT_2026-08-29.md",
+      "bytes": 530,
+      "sha256": "192cecfd8933820373910db8dc68e386ec46b089a321a9d4c9ad164e9ebc6f5e"
+    },
+    {
+      "path": "docs/antigravity/V3_0_TO_V3_1_MIGRATION.md",
+      "bytes": 1373,
+      "sha256": "93d6824ec2c36b95a5f871745772466ea52df044a5a7b5a4ddc06bbb8bd61f8b"
+    },
+    {
+      "path": "docs/antigravity/WINDOWS_SECURITY_POSTURE.md",
+      "bytes": 927,
+      "sha256": "a29aebc85000d29704323e9c1f02eec32922e053d51b9f452f07959629ded9f4"
+    },
+    {
+      "path": "scripts/antigravity-pre-invocation.mjs",
+      "bytes": 1869,
+      "sha256": "9f032c857292c59930f51d34cf28e327adee24843cb4b0fcb2bbc17e512fb812"
+    },
+    {
+      "path": "scripts/antigravity-pretool-guard.mjs",
+      "bytes": 4516,
+      "sha256": "e677f59d62179351107e21272b38c3b254d3f25b933efd98e4e5e4474207308b"
+    },
+    {
+      "path": "scripts/bootstrap-seh.ps1",
+      "bytes": 1813,
+      "sha256": "7502ca1b2b3d62c0214fc9bec28467349f3c4b81bfe6b7aa548fd95f61c6602a"
+    },
+    {
+      "path": "scripts/bootstrap-seh.sh",
+      "bytes": 1665,
+      "sha256": "a05d322d127b97d4b4ba80c0825e09dddd879d2bdcf79f595c4e257424dcc28e"
+    },
+    {
+      "path": "scripts/check-antigravity-limits.mjs",
+      "bytes": 1629,
+      "sha256": "eaeab9ddb6071bb8775fbe7ec45c740f8a23ef84c8b817e74a34087e82f34b52"
+    },
+    {
+      "path": "scripts/check-local-links.mjs",
+      "bytes": 1283,
+      "sha256": "8834ef406f4626665f6f91482776a8961d9c2feeddf625393a107817427de117"
+    },
+    {
+      "path": "scripts/check-overlay-integrity.mjs",
+      "bytes": 1150,
+      "sha256": "56cc9b841e99db44afb3d32455b76a1652d5c276f9d8c735da0eb5c4931c2056"
+    },
+    {
+      "path": "scripts/check-seh-setup.mjs",
+      "bytes": 6088,
+      "sha256": "cc9a6a75aa2ba0e3eb2c10c6f1d72423fbc58013fc3152a8925ad74403102931"
+    },
+    {
+      "path": "scripts/check-toolchain.mjs",
+      "bytes": 1903,
+      "sha256": "f67ed578a9962c0ee19d6f44470b06c191f975d062b4e9dc2f5ba053b03cd268"
+    },
+    {
+      "path": "scripts/check-upstream-pin.mjs",
+      "bytes": 1160,
+      "sha256": "431f3ecda51194b70879b32c51d685cc58439c618a9af2c87274af41ecabd577"
+    },
+    {
+      "path": "scripts/hash-architecture.mjs",
+      "bytes": 643,
+      "sha256": "e16cf973ea96f3e1eb10d6f2b21ceca5ae30922c777014b9d8be6b66359f3146"
+    },
+    {
+      "path": "scripts/new-runtime-profile.mjs",
+      "bytes": 1222,
+      "sha256": "cd5dc63dfc0fe0d26e2ead826d0255fa2e1dc4e054960c61062794d4c9045ef2"
+    },
+    {
+      "path": "scripts/new-steering-profile.mjs",
+      "bytes": 1100,
+      "sha256": "e5a0d5fda6ffcbf0f14bcc4b8123efe97d8abc4dc5beb2a5a3435d85fa42369c"
+    },
+    {
+      "path": "scripts/new-training-run-spec.mjs",
+      "bytes": 1311,
+      "sha256": "6e36bbac2afb5cbe034940f6be9ff37af90daeacbb5d87c7297ce5433ba309aa"
+    },
+    {
+      "path": "scripts/test-antigravity-hooks.mjs",
+      "bytes": 3410,
+      "sha256": "47426f28c367e13eabf250152fc0a0a9bebd273b9e538b6079cdcc91469ebda4"
+    },
+    {
+      "path": "scripts/validate-runtime-profile.mjs",
+      "bytes": 1284,
+      "sha256": "a0e223663986a778789708d8d7bad1cf923b9e75d1b2309ffc1ef972c4cceb7a"
+    },
+    {
+      "path": "scripts/validate-steering-profile.mjs",
+      "bytes": 1119,
+      "sha256": "705f0699fae6d2018b9c25cb9c28c509e32d6fca44b8db6669f81a4b28e815e0"
+    },
+    {
+      "path": "scripts/validate-training-backend.mjs",
+      "bytes": 882,
+      "sha256": "c7b91f4193f0e991c399bad213aecd1c16e80a4f49e78371c1cc5dff857d905f"
+    },
+    {
+      "path": "scripts/validate-training-run-spec.mjs",
+      "bytes": 1397,
+      "sha256": "edb2020be30afc8773ac54b31e828bafb66d730e86ff34dd3ab023b7d4ad4774"
+    }
+  ]
+}

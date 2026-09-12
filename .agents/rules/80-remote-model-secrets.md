@@ -1,0 +1,3 @@
+# Remote execution and secrets
+
+Remote is separately authorized, never an implicit fallback for GPU pressure or local failure. Prepare, classify, minimize, redact, hash, and approve the export before the child session. The final guard checks exact route/config, qualification, export envelope, data class, tools, reservation, kill switches, and authorization after request assembly and before network I/O; it may deny but never silently rewrite logged content. Keep provider credentials out of tracked files, prompts, events, memory, datasets, candidates, logs, tool results, and MCP config. Remote outputs are training-ineligible by default.

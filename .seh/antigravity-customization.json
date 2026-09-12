@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "rules": {
+    "alwaysOn": [
+      "00-seh-core",
+      "10-authority-security",
+      "20-dsh-cordis-integration",
+      "60-phase-change-discipline",
+      "70-verification-evidence"
+    ],
+    "modelDecision": [
+      "30-task-taxonomy-deterministic-lane",
+      "40-model-portfolio-qualification",
+      "45-representation-steering",
+      "50-residency-scheduling",
+      "55-supervised-training-backend",
+      "80-remote-model-secrets",
+      "90-documentation-upstream",
+      "95-training-evolution"
+    ]
+  },
+  "terminalExecution": "Request Review",
+  "nonWorkspaceAccess": "Deny",
+  "mcp": "empty-until-reviewed",
+  "hooks": "enabled-defense-in-depth",
+  "customAgents": "optional-advisory-not-security-principals",
+  "windowsTerminalSandbox": "NOT_CURRENTLY_AVAILABLE_USE_EXTERNAL_ISOLATION"
+}

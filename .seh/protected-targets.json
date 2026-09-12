@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "protected": [
+    {
+      "id": "architecture-invariants",
+      "paths": [
+        "architecture.md",
+        "SEH_ARCHITECTURE_v3.1.md",
+        "SEH_ARCHITECTURE_v3.1_CHANGELOG.md",
+        "docs/adr/**"
+      ]
+    },
+    {
+      "id": "workspace-constitution",
+      "paths": [
+        "GEMINI.md",
+        ".agents/**",
+        ".seh/**"
+      ]
+    },
+    {
+      "id": "dsh-instructions",
+      "paths": [
+        "AGENTS.md",
+        "**/AGENTS.md",
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "gca-and-policy",
+      "paths": [
+        "packages/seh/control/**",
+        "packages/seh/**/policy*"
+      ]
+    },
+    {
+      "id": "qualification",
+      "paths": [
+        "packages/seh/qualification/**"
+      ]
+    },
+    {
+      "id": "residency-and-runtime-control",
+      "paths": [
+        "packages/seh/residency/**",
+        "packages/seh/**/runtime*"
+      ]
+    },
+    {
+      "id": "remote-guard-and-budget",
+      "paths": [
+        "packages/seh/**/remote*",
+        "packages/seh/**/budget*"
+      ]
+    },
+    {
+      "id": "evidence-integrity",
+      "paths": [
+        "packages/seh/evidence/**"
+      ]
+    },
+    {
+      "id": "evaluator-gate-release",
+      "paths": [
+        "packages/seh/evaluation/**",
+        "packages/seh/gate/**",
+        "packages/seh/release/**"
+      ]
+    },
+    {
+      "id": "training-eligibility",
+      "paths": [
+        "packages/seh/training/**"
+      ]
+    },
+    {
+      "id": "dependency-and-ci",
+      "paths": [
+        "pnpm-lock.yaml",
+        "package.json",
+        ".github/**"
+      ]
+    },
+    {
+      "id": "credentials",
+      "paths": [
+        ".env",
+        ".env.*",
+        "**/*credential*",
+        "**/*secret*"
+      ]
+    },
+    {
+      "id": "steering-artifacts-and-policy",
+      "paths": [
+        "packages/seh/steering/**",
+        ".seh/steering-*.json",
+        ".seh-data/**/steering/**"
+      ]
+    },
+    {
+      "id": "training-backends-and-candidates",
+      "paths": [
+        "packages/seh/training/**",
+        "packages/seh/training-unsloth/**",
+        ".seh/training-*.json",
+        ".seh-training/**",
+        ".seh-data/**/candidates/**"
+      ]
+    }
+  ],
+  "candidateWritePolicy": "deny-before-materialization",
+  "antigravityWritePolicy": "force-user-review"
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "enabled": false,
+  "globalKillSwitch": "disabled",
+  "allowedProviders": [],
+  "allowedModels": [],
+  "allowedDataClasses": [
+    "public"
+  ],
+  "preSessionExportRequired": true,
+  "finalDenyOnlyGuardRequired": true,
+  "implicitFallback": false,
+  "remoteOutputTrainingEligible": false,
+  "budgets": {
+    "maxPerCallUsd": 0,
+    "maxPerEpisodeUsd": 0,
+    "maxPerTaskUsd": 0,
+    "maxPerRollingDayUsd": 0,
+    "maxPerRollingMonthUsd": 0
+  }
+}

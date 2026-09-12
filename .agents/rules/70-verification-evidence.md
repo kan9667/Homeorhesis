@@ -1,0 +1,3 @@
+# Verification and evidence
+
+Match verification to the changed surface and negative authority. DSH session evidence owns model-visible runtime and tool facts; SEH control evidence owns classification, route, lease, steering selection, dataset, training, evaluation, gate, and release facts. Do not duplicate canonical streams. Every score and decision pins subject, evaluator, split, configuration, artifacts, and evidence. Preserve retries and supersession. Run focused tests first, then proportionate DSH gates. Report exact commands, exit codes, pass/fail, skipped checks, pre-existing failures, and residual uncertainty. Missing required evidence fails closed.

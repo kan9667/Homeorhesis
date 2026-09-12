@@ -6857,6 +6857,18 @@ importers:
         specifier: workspace:^
         version: link:../../subagent/subagent
 
+  packages/seh/contracts:
+    devDependencies:
+      '@deepseek-ai/cordis':
+        specifier: workspace:^
+        version: link:../../../vendor/cordis
+      '@deepseek-ai/dsh-brand':
+        specifier: workspace:^
+        version: link:../../util/brand
+      '@deepseek-ai/dsh-invariants':
+        specifier: workspace:^
+        version: link:../../runtime-diagnostics/invariants
+
   packages/session-query/session-log-export:
     dependencies:
       '@deepseek-ai/dsh-brand':

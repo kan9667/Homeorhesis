@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "architectureVersion": "3.1",
+  "activeImplementationPhase": "0",
+  "activeImplementationPhaseName": "Foundation and authority contract",
+  "parallelResearchLanes": [
+    {
+      "id": "0-M",
+      "name": "Local model portfolio discovery",
+      "productionAuthority": false
+    },
+    {
+      "id": "0-M/S",
+      "name": "Representation-steering replication",
+      "productionAuthority": false
+    },
+    {
+      "id": "0-M/U",
+      "name": "Unsloth supervised-training backend qualification",
+      "productionAuthority": false
+    }
+  ],
+  "runtimeFeatures": {
+    "automaticTaskRouting": false,
+    "realLocalModelLoadUnload": false,
+    "productionLocalPortfolio": false,
+    "liveRepresentationSteering": false,
+    "steeringVectorExtraction": false,
+    "realRemoteProviderCalls": false,
+    "remoteEnabled": false,
+    "candidateExecution": false,
+    "persistentAutonomousMemoryMutation": false,
+    "modelTraining": false,
+    "unslothBackendEnabled": false,
+    "agentLightningRuntime": false,
+    "automaticPromotion": false
+  }
+}

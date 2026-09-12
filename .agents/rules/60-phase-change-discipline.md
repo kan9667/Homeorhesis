@@ -1,0 +1,3 @@
+# Phase and change discipline
+
+Read `.seh/phase-state.json` before work. Phase 0 is contracts and fake evidence only. Phase 0-M, 0-M/S, and 0-M/U are isolated research lanes with no production authority. Do not enable a later-phase feature because supporting code or a dependency exists. Any phase movement requires defined entry/exit evidence, accepted ADRs, threat-model update, verification gates, rollback, and explicit human approval. Keep feature flags false unless an approved phase transition changes them. First PR remains contracts-only: no vector extraction/load, non-neutral alpha, Unsloth install/run, live routing, runtime switch, remote call, or training.

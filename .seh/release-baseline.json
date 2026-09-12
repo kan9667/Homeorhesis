@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "architectureVersion": "3.1",
+  "architectureSha256": "e1d48e75f5ba169f262b08071add8fd7ae757d8d14f5c66a11147c404510d04a",
+  "dshCommit": "b150a551b8d465e31e418e1b2eaf5e79bbb7d28e",
+  "dependencyLockDigest": null,
+  "localPortfolioDigest": null,
+  "schedulerPolicyDigest": null,
+  "steeringRegistryDigest": null,
+  "trainingBackendRegistryDigest": null,
+  "qualificationSnapshotDigest": null,
+  "active": false,
+  "status": "FOUNDATION_NOT_A_RUNTIME_RELEASE"
+}

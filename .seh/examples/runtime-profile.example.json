@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "runtimeProfileId": "research-only-example",
+  "status": "ILLUSTRATIVE_UNQUALIFIED",
+  "route": {
+    "schemaVersion": 1,
+    "providerId": "replace",
+    "modelId": "replace",
+    "locality": "local",
+    "providerConfigDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614"
+  },
+  "modelArtifactDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "modelSourceRef": "replace",
+  "licenseRecordId": "replace",
+  "adapterDigest": null,
+  "quantization": "replace",
+  "inferenceEngine": "replace",
+  "inferenceEngineVersion": "replace",
+  "engineConfigDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "chatTemplateDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "toolParserDigest": null,
+  "tokenizerDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "configuredContextTokens": 0,
+  "measuredSafeContextTokens": 0,
+  "configuredMaxOutputTokens": 0,
+  "cachePolicyDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "samplingProfileDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "measuredPeakVramMiB": 0,
+  "evidenceRefs": []
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "requiredOrder": [
+    {
+      "stage": 0,
+      "id": "deterministic"
+    },
+    {
+      "stage": 1,
+      "id": "prompt-tool-schema-or-inference-config"
+    },
+    {
+      "stage": 2,
+      "id": "representation-steering"
+    },
+    {
+      "stage": 3,
+      "id": "supervised-lora-or-qlora"
+    },
+    {
+      "stage": 4,
+      "id": "preference-or-rejection-sampling"
+    },
+    {
+      "stage": 5,
+      "id": "agent-lightning-rl"
+    }
+  ],
+  "laterStageRequiresEarlierStageEvidence": true,
+  "higherStageNotPresumedBetter": true
+}

@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seh://schemas/runtime-profile.schema.json",
+  "title": "SEH RuntimeProfile setup schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runtimeProfileId",
+    "status",
+    "route",
+    "modelArtifactDigest",
+    "modelSourceRef",
+    "licenseRecordId",
+    "quantization",
+    "inferenceEngine",
+    "inferenceEngineVersion",
+    "engineConfigDigest",
+    "chatTemplateDigest",
+    "tokenizerDigest",
+    "configuredContextTokens",
+    "measuredSafeContextTokens",
+    "configuredMaxOutputTokens",
+    "cachePolicyDigest",
+    "samplingProfileDigest",
+    "measuredPeakVramMiB",
+    "evidenceRefs"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "runtimeProfileId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]+$"
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "providerId",
+        "modelId",
+        "locality",
+        "providerConfigDigest"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "providerId": {
+          "type": "string"
+        },
+        "modelId": {
+          "type": "string"
+        },
+        "locality": {
+          "const": "local"
+        },
+        "providerConfigDigest": {
+          "type": "string"
+        }
+      }
+    },
+    "modelArtifactDigest": {
+      "type": "string"
+    },
+    "modelSourceRef": {
+      "type": "string"
+    },
+    "licenseRecordId": {
+      "type": "string"
+    },
+    "adapterDigest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "quantization": {
+      "type": "string"
+    },
+    "inferenceEngine": {
+      "type": "string"
+    },
+    "inferenceEngineVersion": {
+      "type": "string"
+    },
+    "engineConfigDigest": {
+      "type": "string"
+    },
+    "chatTemplateDigest": {
+      "type": "string"
+    },
+    "toolParserDigest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tokenizerDigest": {
+      "type": "string"
+    },
+    "configuredContextTokens": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "measuredSafeContextTokens": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "configuredMaxOutputTokens": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "cachePolicyDigest": {
+      "type": "string"
+    },
+    "samplingProfileDigest": {
+      "type": "string"
+    },
+    "measuredPeakVramMiB": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "evidenceRefs": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

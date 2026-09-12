@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seh://schemas/steering-profile.schema.json",
+  "title": "SEH ToolUseSteeringProfile setup schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "steeringProfileId",
+    "baseRuntimeProfileId",
+    "modelArtifactDigest",
+    "quantization",
+    "inferenceEngine",
+    "inferenceEngineVersion",
+    "tokenizerDigest",
+    "chatTemplateDigest",
+    "promptBundleDigest",
+    "toolBundleDigest",
+    "extractionDatasetDigest",
+    "extractionSplitDigest",
+    "vectorArtifactDigest",
+    "layerStart",
+    "layerEnd",
+    "evidenceRefs",
+    "contentHash"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "steeringProfileId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baseRuntimeProfileId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "modelArtifactDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "adapterDigest": {
+      "type": "string"
+    },
+    "quantization": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inferenceEngine": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inferenceEngineVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "engineConfigDigest": {
+      "type": "string"
+    },
+    "tokenizerDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "chatTemplateDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "toolParserDigest": {
+      "type": "string"
+    },
+    "promptBundleDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "toolBundleDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "extractionDatasetDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "extractionSplitDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "extractionMethod": {
+      "type": "string"
+    },
+    "vectorArtifactDigest": {
+      "type": "string",
+      "minLength": 16
+    },
+    "layerStart": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "layerEnd": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "evidenceRefs": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "contentHash": {
+      "type": "string",
+      "minLength": 16
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

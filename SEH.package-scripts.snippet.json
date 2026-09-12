@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "seh:check": "node scripts/check-toolchain.mjs && node scripts/check-seh-setup.mjs && node scripts/check-antigravity-limits.mjs && node scripts/test-antigravity-hooks.mjs && node scripts/check-upstream-pin.mjs && node scripts/hash-architecture.mjs && node scripts/check-local-links.mjs && node scripts/validate-runtime-profile.mjs .seh/examples/runtime-profile.example.json && node scripts/validate-steering-profile.mjs .seh/examples/steering-profile.example.json && node scripts/validate-training-backend.mjs .seh/examples/training-backend.example.json && node scripts/validate-training-run-spec.mjs .seh/examples/training-run-spec.example.json && node scripts/check-overlay-integrity.mjs",
+    "seh:integrity": "node scripts/check-overlay-integrity.mjs",
+    "seh:toolchain": "node scripts/check-toolchain.mjs",
+    "seh:hash-architecture": "node scripts/hash-architecture.mjs",
+    "seh:contracts": "node scripts/validate-runtime-profile.mjs .seh/examples/runtime-profile.example.json && node scripts/validate-steering-profile.mjs .seh/examples/steering-profile.example.json && node scripts/validate-training-backend.mjs .seh/examples/training-backend.example.json && node scripts/validate-training-run-spec.mjs .seh/examples/training-run-spec.example.json"
+  },
+  "_note": "Merge deliberately into the existing DSH package.json. Do not replace upstream scripts or package metadata."
+}

@@ -1,0 +1,3 @@
+# Supervised training backend
+
+SEH owns the implementation-neutral `TrainingBackend` contract. Unsloth Core and standard Transformers/PEFT are provider candidates, not authority planes. The coordinator validates policy/resources and acquires the shared GPU lease; the isolated worker performs numerical optimization. Give the worker only a sealed dataset, immutable read-only base, approved config, bounded mounts/resources, and candidate output root. Deny arbitrary DSH sessions, credentials, hidden sets, policy, qualification, gate, portfolio, active model-store writes, and release state. Pin complete environment and training identity. Quarantine outputs and require export plus actual-runtime requalification before any gate decision.

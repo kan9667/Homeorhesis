@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "roles": [
+    {
+      "id": "LOCAL_FAST",
+      "productionEnabled": false
+    },
+    {
+      "id": "LOCAL_VERIFIED",
+      "productionEnabled": false
+    },
+    {
+      "id": "LOCAL_AGENT",
+      "productionEnabled": false
+    },
+    {
+      "id": "LOCAL_CODER",
+      "productionEnabled": false
+    },
+    {
+      "id": "LOCAL_REASONING",
+      "productionEnabled": false
+    },
+    {
+      "id": "LOCAL_MULTIMODAL",
+      "productionEnabled": false
+    },
+    {
+      "id": "LOCAL_TRAINABLE",
+      "productionEnabled": false
+    }
+  ],
+  "vendorSpecificRoleIdsForbidden": true
+}

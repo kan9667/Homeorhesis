@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "appliedAutomatically": false,
+  "precedence": "Deny > Ask > Allow",
+  "recommendedAsk": [
+    "command(*)",
+    "mcp(*)",
+    "execute_url(*)",
+    "read_url(*)"
+  ],
+  "recommendedDeny": [
+    "command(sudo)",
+    "command(rm -rf)",
+    "write_file(.git/)",
+    "write_file(~/.ssh)",
+    "write_file(.env)",
+    "read_file(~/.ssh)"
+  ],
+  "possibleAllowAfterReview": [
+    "command(git status)",
+    "command(git diff)",
+    "command(node scripts/check-seh-setup.mjs)",
+    "command(node scripts/check-antigravity-limits.mjs)",
+    "command(node scripts/test-antigravity-hooks.mjs)"
+  ],
+  "note": "Translate deliberately in Antigravity Settings. Do not blindly paste broad patterns; path and command matching is platform-normalized."
+}

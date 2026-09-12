@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "failClosed": true,
+  "humanReviewRequiredForProductionActivation": true,
+  "deterministicLanePreferred": true,
+  "supportedDoesNotImplyQualified": true,
+  "interventionOrder": [
+    "deterministic",
+    "prompt-or-config",
+    "representation-steering",
+    "supervised-adapter",
+    "preference-optimization",
+    "agent-lightning-rl"
+  ],
+  "local": {
+    "maxConcurrentGenerativeGpuModels": 1,
+    "runtimeControlModelFacing": false,
+    "unqualifiedRoutesEnabled": false,
+    "implicitFallbackEnabled": false
+  },
+  "steering": {
+    "enabled": false,
+    "toolGrantMustPrecedeSelection": true,
+    "modelMaySelectAlpha": false,
+    "neutralFallbackRequiresIndependentQualification": true
+  },
+  "remote": {
+    "enabled": false,
+    "implicitProviderFallback": false,
+    "trainingEligibleByDefault": false,
+    "finalGuardRequired": true,
+    "preSessionExportRequired": true
+  },
+  "training": {
+    "enabled": false,
+    "backendEnabled": false,
+    "remoteOutputsEligible": false,
+    "activeWeightsMutable": false,
+    "sharedGpuSchedulerRequired": true,
+    "actualRuntimeRequalificationRequired": true
+  },
+  "evolution": {
+    "candidateExecutionEnabled": false,
+    "autoPromotionEnabled": false
+  },
+  "memory": {
+    "workerMode": "EXTERNAL_READONLY",
+    "persistentMutationRequiresReview": true
+  }
+}

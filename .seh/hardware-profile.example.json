@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "profileId": "hp-omen-16-ap0183ax-reference",
+  "status": "ILLUSTRATIVE_VERIFY_LOCALLY",
+  "os": "Windows 11",
+  "cpu": "AMD Ryzen AI 7 350",
+  "systemRamGiB": 24,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "vramGiB": 8,
+  "storage": "local NVMe",
+  "measurements": {
+    "driverVersion": null,
+    "cudaVersion": null,
+    "powerMode": null,
+    "thermalLimits": null
+  }
+}

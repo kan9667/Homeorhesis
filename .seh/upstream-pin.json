@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "architectureVersion": "3.1",
+  "approvedPin": {
+    "repository": "deepseek-ai/deepseek-harness",
+    "commit": "b150a551b8d465e31e418e1b2eaf5e79bbb7d28e",
+    "packageVersion": "0.1.1-rc.2",
+    "packageManager": "pnpm@11.7.0",
+    "node": "^22.19.0 || >=24.0.0",
+    "status": "APPROVED_ARCHITECTURE_BASELINE"
+  },
+  "observedUpstream": {
+    "observedAt": "2026-08-29",
+    "branch": "master",
+    "commit": "cd5ef8148158c3a752a658978873241fdf8e2bbc",
+    "packageVersion": "0.1.2-alpha.1",
+    "status": "UNREVIEWED_DO_NOT_ADOPT"
+  },
+  "pinMovementPolicy": "Isolated upstream-sync review plus explicit approval only; never incidental feature work."
+}

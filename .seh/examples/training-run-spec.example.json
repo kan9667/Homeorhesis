@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "trainingRunId": "research-only-example",
+  "backend": {
+    "backendId": "unsloth-core-research-example",
+    "backendVersion": "replace",
+    "sourceRevision": "replace",
+    "environmentDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+    "capabilityIds": [
+      "qlora-4bit"
+    ],
+    "licenseRecordId": "replace",
+    "contentHash": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614"
+  },
+  "datasetManifestId": "sealed-dataset-replace",
+  "baseModelArtifactRef": {
+    "artifactId": "replace",
+    "digest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+    "readOnly": true
+  },
+  "tokenizerDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "chatTemplateDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "targetRole": "LOCAL_TRAINABLE",
+  "targetTaskFamilies": [
+    "STRUCTURED_ACTION"
+  ],
+  "method": "qlora",
+  "trainingConfigRef": {
+    "artifactId": "replace",
+    "digest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614"
+  },
+  "resourceBudgetRef": "replace",
+  "checkpointPolicyRef": "replace",
+  "outputCandidateRootRef": ".seh-training/candidates/replace",
+  "policyVersion": "research-v1",
+  "contentHash": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "status": "ILLUSTRATIVE_DO_NOT_RUN"
+}

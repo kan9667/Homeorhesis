@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-29",
+  "observationsAreNotPins": true,
+  "antigravity": {
+    "docsProduct": "Antigravity 2.0",
+    "docsVersion": "2.11.0",
+    "cliVersionShownInDocs": "1.1.22",
+    "status": "DOCUMENTATION_OBSERVATION_NOT_PROJECT_RUNTIME_PIN"
+  },
+  "deepseekHarness": {
+    "approved": {
+      "commit": "b150a551b8d465e31e418e1b2eaf5e79bbb7d28e",
+      "version": "0.1.1-rc.2"
+    },
+    "observedCandidate": {
+      "commit": "cd5ef8148158c3a752a658978873241fdf8e2bbc",
+      "version": "0.1.2-alpha.1",
+      "status": "UNREVIEWED"
+    }
+  },
+  "unsloth": {
+    "observedRelease": "v0.1.804-beta",
+    "publishedAt": "2026-08-27",
+    "status": "UNREVIEWED_PHASE_0_M_U_CANDIDATE"
+  },
+  "agentLightning": {
+    "architectureTarget": "v1.0.0",
+    "observedLatestRelease": "v1.0.1",
+    "publishedAt": "2026-08-24",
+    "status": "LATER_PHASE_REVIEW_REQUIRED"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "approvedPin": "b150a551b8d465e31e418e1b2eaf5e79bbb7d28e",
+  "nodeEngine": "^22.19.0 || >=24.0.0",
+  "pnpm": "11.7.0",
+  "gitMinimum": "2.26.0",
+  "windows": {
+    "powershell": "7 recommended",
+    "wsl": "optional for Linux-only runtimes/training"
+  },
+  "validationCommand": "node scripts/check-seh-setup.mjs",
+  "bootstrapCommands": {
+    "windows": "pwsh -File scripts/bootstrap-seh.ps1",
+    "posix": "bash scripts/bootstrap-seh.sh"
+  }
+}

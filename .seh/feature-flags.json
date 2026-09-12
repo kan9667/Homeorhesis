@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "mode": "FOUNDATION_ONLY",
+  "flags": {
+    "taskTaxonomyContracts": true,
+    "deterministicLaneContracts": true,
+    "providerNeutralRouteContracts": true,
+    "runtimeProfileContracts": true,
+    "qualificationContracts": true,
+    "steeringContracts": true,
+    "trainingBackendContracts": true,
+    "portfolioContracts": true,
+    "residencyContracts": true,
+    "fakeRuntimeManagerTests": true,
+    "remoteGuardContract": true,
+    "liveRouting": false,
+    "liveResidency": false,
+    "liveSteering": false,
+    "liveRemote": false,
+    "liveTraining": false,
+    "liveEvolution": false,
+    "livePromotion": false
+  }
+}

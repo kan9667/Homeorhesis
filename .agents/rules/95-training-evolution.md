@@ -1,0 +1,3 @@
+# Evolution and training governance
+
+Use the least-invasive intervention ladder: deterministic, prompt/config, steering, supervised adapter, preference optimization, then Agent Lightning RL. Base weights are immutable per lineage; every output has a new identity. Curators determine eligibility; trainers cannot. Keep train, development, qualification, test, sealed release, and shadow splits separate. Preserve exact token IDs and rollout/group identity where required. Remote outputs, hidden traces, secrets, restricted/unlicensed data, and unverifiable reconstructions are ineligible. Optimizer and trainer outputs remain candidates until independent evaluation, gate, atomic release, canary, and rollback evidence succeed.

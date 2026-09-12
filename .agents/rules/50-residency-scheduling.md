@@ -1,0 +1,3 @@
+# Residency and scheduling
+
+Capability routing chooses an eligible execution profile; the protected scheduler decides residency. The reference GPU permits one generative model lease across inference, qualification, steering work, and training. Runtime control is scheduler-only, authenticated, loopback or isolated IPC, absent from model tools, and accepts active logical profile IDs rather than arbitrary paths. A switch requires drain, termination/unload proof, GPU snapshot and VRAM release, load, health check, new lease, and a child episode. Apply switch budgets, cooldown, minimum residency, and anti-thrashing. Ambiguous GPU state stops new local work.

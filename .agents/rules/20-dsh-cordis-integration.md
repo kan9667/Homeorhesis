@@ -1,0 +1,3 @@
+# DSH and Cordis integration
+
+Read root and nearest `AGENTS.md`, pinned `docs/architecture.md`, package README, generated catalogs, and tests before editing DSH packages. Reuse DSH model, provider, session, prompt, tool, approval, credential, settings, sandbox, workflow, command, and UI seams. New behavior belongs in Cordis services/providers/consumers/effects/events/profiles/bundles/middleware/presets or Remote methods. Do not create a second provider registry, tool loop, runtime log, approval system, chat backend, or model-facing runtime-control tool. Any `core/agent-loop` change requires an accepted ADR proving documented seams are insufficient.

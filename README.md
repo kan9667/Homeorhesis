@@ -1,3 +1,15 @@
+> **This fork** (`kan9667/deepseek-harness`) is being developed as the
+> **Self-Evolving Harness (SEH) v3.1** — a governed self-evolving distribution of DeepSeek Harness.
+>
+> - Active phase: **Phase 0 — Foundation and authority contract**
+> - DSH baseline: `dsh@0.1.1-rc.2` (`b150a551b8`)
+> - Architecture: [`architecture.md`](./architecture.md)
+> - SEH setup: [`docs/antigravity/`](./docs/antigravity/)
+>
+> Original upstream: [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+
+---
+
 # DeepSeek Harness
 
 English | [中文](README.zh.md)

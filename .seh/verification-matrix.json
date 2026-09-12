@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "phase": "0",
+  "requiredChecks": [
+    "optimizer-cannot-gate-or-release",
+    "trainer-cannot-activate",
+    "training-backend-cannot-write-qualification-gate-portfolio-release",
+    "training-backend-cannot-read-arbitrary-sessions-hidden-sets-credentials",
+    "configured-but-unqualified-denied",
+    "provider-model-ids-open-data",
+    "exclusive-gpu-lease-across-inference-qualification-training",
+    "failed-unload-blocks-next-load",
+    "runtime-profile-pin-immutable-per-episode",
+    "runtime-control-not-model-facing",
+    "tool-grant-precedes-steering",
+    "steering-cannot-expand-tool-grant",
+    "out-of-range-or-incompatible-alpha-denied",
+    "stale-steering-neutral-only-if-neutral-qualified",
+    "remote-guard-disabled-means-no-remote",
+    "plaintext-secret-config-denied",
+    "canonical-evidence-single-owner",
+    "training-output-quarantine-only",
+    "actual-runtime-requalification-required",
+    "disabled-features-not-registered"
+  ]
+}

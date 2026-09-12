@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "order": [
+    "architecture.md invariants",
+    "accepted docs/adr/ADR-SEH-*.md",
+    "versioned SEH policy/contracts/schemas",
+    "DSH AGENTS.md and docs/architecture.md at approved pin",
+    "DSH generated capability/Cordis/config catalogs at approved pin",
+    "package documentation and tests",
+    "generated SEH configuration documentation",
+    "examples and comments"
+  ]
+}

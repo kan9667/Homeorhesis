@@ -1,0 +1,3 @@
+# Model portfolio and qualification
+
+`supported != qualified`. Qualification binds the exact artifact, adapter, quantization, engine/version, context, tokenizer, template, parser, prompt/tool bundles, sampling, hardware profile, task families, and evidence. Select the smallest useful specialist portfolio from measured task-family utility, not model reputation. Production routing must reject configured-but-unqualified profiles. Candidate, restricted, research-only, rejected, stale, and retired states are distinct. A portfolio update requires a complete tested release; never assemble an untested runtime mixture.

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "enabled": false,
+  "maxConcurrentGpuModels": 1,
+  "runtimeControlBinding": "loopback-or-protected-local-ipc",
+  "allowedCaller": "scheduler-identity-only",
+  "allowArbitraryModelPaths": false,
+  "requireActivePortfolioReference": true,
+  "requireDrainBeforeUnload": true,
+  "requireProcessTerminationProof": true,
+  "requireVramReleaseProof": true,
+  "requireHealthCheckBeforeLease": true,
+  "switchPolicy": {
+    "maxSwitchesPerTask": null,
+    "minimumExpectedUtilityGain": null,
+    "minimumResidencyMs": null,
+    "switchCooldownMs": null,
+    "drainTimeoutMs": null,
+    "loadHealthTimeoutMs": null,
+    "status": "UNRESOLVED_RESTRICTIVE"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "defaultStatus": "UNQUALIFIED",
+  "required": [
+    "source",
+    "exact-revision",
+    "download-identity",
+    "license",
+    "intended-use",
+    "original-hash",
+    "conversion-tool-version",
+    "converted-hash",
+    "quantization-tool-version",
+    "quantized-hash",
+    "isolated-load-check",
+    "template-parser-probe",
+    "model-store-path"
+  ],
+  "forbidden": [
+    "unreviewed-active-runtime-path",
+    "unknown-license",
+    "unhashed-artifact",
+    "plaintext-credential"
+  ],
+  "nonCommercialReleasePolicy": "not-eligible-for-distributable-production-release-without-explicit-legal-decision"
+}

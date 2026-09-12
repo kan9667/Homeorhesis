@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "backendId": "unsloth-core-research-example",
+  "backendVersion": "replace-after-review",
+  "sourceRevision": "replace-after-review",
+  "environmentDigest": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "capabilityIds": [
+    "qlora-4bit"
+  ],
+  "licenseRecordId": "replace",
+  "contentHash": "sha256:c6d8c37792ea2f4930723d791f427a4ad3603747209af47ef8256973ef3d7614",
+  "status": "ILLUSTRATIVE_NOT_ADOPTED"
+}
